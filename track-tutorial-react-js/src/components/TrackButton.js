@@ -1,5 +1,4 @@
 const TrackButton = (props) => {
-
   const trackButtonStyle = {
     display: "inline-block",
     fontSize: "1.8vw",
@@ -14,11 +13,13 @@ const TrackButton = (props) => {
     color: "#fff",
     backgroundColor: "#337ab7",
     borderColor: "#2e6da4",
-  }
+  };
 
   return (
-    <button style={trackButtonStyle} id="track-button" onClick={props.onClick}>Click me!!</button>
+    <button style={trackButtonStyle} id="track-button" onClick={props.onClick}>
+      Click me!!
+    </button>
   );
-}
+};
 
 export default TrackButton;
